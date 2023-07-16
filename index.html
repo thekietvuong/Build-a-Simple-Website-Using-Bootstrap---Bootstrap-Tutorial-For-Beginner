@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+    <!-- Custom CSS -->
+	<link rel="stylesheet" href="style.css"/>
+    <title>Bootstrap 5 tutorial</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light px-5 fixed-top">
+        <div>
+            <a class="navbar-brand" href="#">Local Brands</a>
+        </div>
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" 
+            aria-controls="navbarNav"
+            aria-expanded="false" 
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#product">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonial">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container d-flex flex-column justify-content-center align-items-center p-5 h-100">
+            <h1 class="mb-5 fw-bold">Welcome to our Website</h1>
+            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod vestibulum hendrerit. Donec ultricies sapien vel laoreet pellentesque. Praesent imperdiet, tellus ac sollicitudin tristique, nunc urna iaculis arcu,at ullamcorper turpis elit eu tortor.</p>
+            <button type="button" class="btn btn-dark fw-bold">Learn More</button>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section id="product">
+        <div class="container p-5">
+            <h2 class="d-flex justify-content-center mb-5 fw-bold">Our Products</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card my-3 p-2 border-0 shadow">
+                        <img class="card-img-top" src="img/product 1.jpg" alt="Card image cap">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <h5 class="card-title">Product 1</h5>
+                            <button type="button" class="btn btn-dark mb-3 fw-bold">Buy Now</button>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-3 p-2 border-0 shadow">
+                        <img class="card-img-top" src="img/product 2.jpg" alt="Card image cap">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <h5 class="card-title">Product 2</h5>
+                            <button type="button" class="btn btn-dark mb-3 fw-bold">Buy Now</button>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-3 p-2 border-0 shadow">
+                        <img class="card-img-top" src="img/product 3.jpg" alt="Card image cap">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <h5 class="card-title">Product 3</h5>
+                            <button type="button" class="btn btn-dark mb-3 fw-bold">Buy Now</button>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+    <!-- Testimonial Section -->
+    <section id="testimonial">
+        <div class="container p-5">
+            <h2 class="d-flex justify-content-center mb-5 fw-bold">Testimonials</h2>
+            <div class="row">
+                <div class="col-md-4 my-3">
+                    <div class="card h-100 p-4 border-0 shadow">
+                        <div class="testimonial-img d-flex justify-content-center">
+                            <img 
+                                src="https://randomuser.me/api/portraits/men/1.jpg"
+                                class="rounded-circle shadow border border-white border-5"
+                                width="100px"
+                                height="100px"
+                            />
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">"Great products! I love my new boots. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="card h-100 p-4 border-0 shadow">
+                        <div class="testimonial-img d-flex justify-content-center">
+                            <img 
+                                src="https://randomuser.me/api/portraits/women/11.jpg"
+                                class="rounded-circle shadow border border-white border-5"
+                                width="100px"
+                                height="100px"
+                            />
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">"Excellent service and quality of boots. I highly recommend this company. Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="card h-100 p-4 border-0 shadow">
+                        <div class="testimonial-img d-flex justify-content-center">
+                            <img 
+                                src="https://randomuser.me/api/portraits/women/2.jpg"
+                                class="rounded-circle shadow border border-white border-5"
+                                width="100px"
+                                height="100px"
+                            />
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">"Fast delivery and great customer support. Thank you for my awesome boots. Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container p-5">
+            <h2 class="d-flex justify-content-center mb-5 fw-bold">Contact us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>We are committed to providing you with the best customer experience. If you have any questions or concerns, please feel free to contact us.</p>
+                    <p>Address: 123 Main Street, Anytown USA</p>
+                    <p>Phone: (123) 456-7890</p>
+                    <p>Email: info@bootproducts.com</p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <button type="button" class="btn btn-dark fw-bold">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
+</html>

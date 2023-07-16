@@ -1,0 +1,13 @@
+/* Home section styles */
+#home {
+    background-image: url('img/RPG_40_bootstrap_layout_landing_page_1@3x.svg.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    color: #fff;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
